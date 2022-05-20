@@ -1,2 +1,2 @@
 # Portfolio-VitorBelo
-Portfolio feito em //HRML CSS JS// Para divulgação pro público
+Portfolio feito em //HTML CSS JS// Para divulgação pro público
