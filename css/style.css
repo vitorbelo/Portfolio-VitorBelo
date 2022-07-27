@@ -286,3 +286,45 @@ header{
     margin-bottom: 1.5rem;
 
 }
+
+/* Services  */
+
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.servies-box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding: 15px;
+    background: var(--container-color);
+    border-radius: 0.4rem;
+    transition:  0.5s all cubic-beizer(0.075, 0.82, 0.165, 1);
+}
+
+.servies-box:hover{
+    transform: scale(1.05);
+    transition:  0.5s all cubic-beizer(0.075, 0.82, 0.165, 1);
+}
+.servies-box .bx{
+    font-size: 1.4rem;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 5rem;
+    border: 2px dashed var(--bg-color);
+}
+
+.servies-box h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: var(--main-color);
+}
+
+.servies-box p{
+    font-size: 0.9rem;
+}
